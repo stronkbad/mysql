@@ -5,7 +5,7 @@ var mysql = require("mysql");
 var apiController = require("./controllers/apiController");
 var htmlController = require("./controllers/htmlController");
 
-var port = process.env.PORT || 3306;
+var port = process.env.PORT || 3000;
 
 app.use("/assets", express.static(__dirname + "/public"));
 
